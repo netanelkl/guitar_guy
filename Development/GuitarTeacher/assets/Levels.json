@@ -1,0 +1,108 @@
+{
+	"Fields" : [
+			{
+			"Id" : "FHidden",
+			"Name" : "",
+			"ImgResId" : ""
+			"Stages" : [
+				{
+					"Id" : "Tuning",
+					"Name" : "Tuning",
+					"GroupName": "Tuning",
+					"Type" : "eExerciseTypes_Tuning",
+					"Parameters": "",
+				},
+				{
+					"Id" : "FirstTime",
+					"Name" : "Introduction",
+					"GroupName": "Introduction",
+					"Type" : "eExerciseTypes_Introduction",
+					"Parameters": "T",
+				},
+			}
+		},
+		{
+			"Id" : "FIntro",
+			"Name" : "Introduction",
+			"ImgResId" : "exercisepicker_fields_introduction"
+			"Stages" : [
+				{
+					"Id" : "Introduction",
+					"Name" : "Introduction",
+					"GroupName": "Introduction",
+					"Type" : "eExerciseTypes_Introduction",
+					"Parameters": "",
+				}
+			}
+		},
+		{
+			"Id" : "FChords",
+			"Name" : "Chords",
+			"ImgResId" : "exercisepicker_fields_chords"
+			"Stages" : [
+				{
+					"Id" : "MajorChords",
+					"Name" : "The [1] Chord",
+					"GroupName": "Major Chords"
+					"Type" : "eExerciseTypes_SingleChord",
+					"Parameters": "A|C|D|E"
+				},
+				{
+					"Id" : "MinorChords",
+					"Name" : "The [1] Chord",
+					"GroupName": "Minor Chords",
+					"Type" : "eExerciseTypes_SingleChord",
+					"Parameters": "Amin|Emin",
+					"Dependency" : "MajorChords|75"
+				}
+				]
+		},
+		{
+			"Id" : "FPositions",
+			"ImgResId" : "exercisepicker_fields_positions"
+			"Name" : "Positions",
+			"Stages" : [
+				{
+					"Id" : "PF",
+					"Name" : "The [1] Position",
+					"GroupName": "Positions",
+					"Type" : "eExerciseTypes_NoteSequence",
+					"Parameters": "1 First",
+					"Dependency": "MinorChords|75"
+				}
+			]
+		},
+		{
+			"Id" : "FTechnique",
+			"ImgResId" : "exercisepicker_fields_technique"
+			"Name" : "Technique",
+			"Stages" : [
+				{
+					"Id" : "Barre",
+					"Name" : "The Barre I",
+					"GroupName": "Barre I",
+					"Type" : "eExerciseTypes_Barre",
+					"Parameters": "1|2|3|4|5",
+					"Dependency" : "MinorChords|75"
+				}
+			]
+		},
+		{
+			"Id" : "FFingerPicking",
+			"ImgResId" : "exercisepicker_fields_picking"
+			"Name" : "Finger Picking",
+			"Stages" : [
+				{
+					"Id" : "FingerPicking1",
+					"Name" : "Chord [1] Picking",
+					"GroupName": "Finger Picking",
+					"Type" : "eExerciseTypes_FingerPicking",
+					"Parameters": "A,1|C,2|D,3",
+					"Dependency" : "MinorChords|75"
+				}
+			]
+		},
+	],
+	
+
+}

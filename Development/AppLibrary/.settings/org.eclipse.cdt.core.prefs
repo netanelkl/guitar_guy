@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.711932564/NDK_MODULE_PATH/delimiter=;
+environment/project/com.android.toolchain.gcc.711932564/NDK_MODULE_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.711932564/NDK_MODULE_PATH/value=s\:\\Development\\AppLibrary\\jni\\ndk-modules\\
+environment/project/com.android.toolchain.gcc.711932564/append=true
+environment/project/com.android.toolchain.gcc.711932564/appendContributed=true

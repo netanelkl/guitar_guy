@@ -1,0 +1,18 @@
+{
+	"TotalPoints" : 5, 
+	"CurrentStages" : 
+	{
+		"Chords1" : 1,
+		"FieldPositions" : 2,
+	},
+	
+	"BestScores" :
+	{
+		/* It would be preferable to group all of the stages together,
+			Will save some computing.*/
+			"F1_AllMajor1" : 97
+			"F1_StageId2" : 54
+			"F2_StageId1" : 25,
+			"F2_StageId2" : 12
+	}
+}

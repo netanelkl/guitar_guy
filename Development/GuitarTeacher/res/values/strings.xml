@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GuitarTeacher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="exercises_SingleChordPlayingScenario_DisplayUserInformation_1" />
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_metronome">MetronomeActivity</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_exercise_list">Exercises</string>
+    <string name="title_exercise_detail">Exercise Detail</string>
+    <string name="title_activity_exercises">ExercisesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_exercises_top_information_bar_fields">Pick a field</string>
+    <string name="activity_exercises_top_information_bar_exercises">Pick an Exercise</string>
+    <string name="activity_exercises_top_information_bar_options">Pick an option</string>
+
+    <!-- FACEBOOK -->
+    <string name="app_id">508219415955995</string>
+
+    <!-- Settings activity -->
+    <string name="settings_facebook_logout">FACEBOOK</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_about_content">About information</string>
+    <string name="pause">Pause</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="topinfobar">topInfoBar</string>
+    <string name="let_me_play">Let me play</string>
+    <string name="show_me_how">Show me how</string>
+    <string name="image">image</string>
+    <string name="about">About</string>
+    <string name="stage_disabled_string">You need to get at least [STARS] stars in [LEVEL] in order to gain access to this level.</string>
+    <string name="border">border</string>
+    <string name="touch_anywhere_to_continue">Touch anywhere to continue</string>
+    <string name="logout">Logout</string>
+    <string name="_0">0</string>
+    <string name="_or_">-or-</string>
+
+</resources>

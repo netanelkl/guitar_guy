@@ -1,0 +1,27 @@
+PracticeScheduler:
+
+Goals:
+Based on the user's maps of scores and levels,
+
+	* Keep a list of current exercises to do.
+		- The list should be created when the app is loaded, and updated when an exercise is done.
+		- To make the list we should decide on an algorithm, for example:
+			* Make sure that today the user played (otherwise we put them in the list) the two lowest scoring stages.
+			* Put on three new stages, from the least played Fields.
+				- For example, if we have four stages:
+					Introduction Played(01/01/13)
+					Notes		 Played(02/01/13)
+					Positions	 Played(03/01/13)
+					Chords		 Played(03/01/13)
+				   We'll play the first three, because the user didn't play them lately (relatively to Chords).
+		
+	* Ask for an example: Manage the background notifications service:
+	    - based on the user's preferences:
+		
+		( A suggested practice profile:
+		    * How many minutes a day (Will determine how many exercises).
+			* Around when?
+			* Should we notify you (opt out).)
+			
+	* Create a global way (singleton or preferebally another way) to maintain the user information that
+	  should be loaded and saved from the file system, as we've talked.

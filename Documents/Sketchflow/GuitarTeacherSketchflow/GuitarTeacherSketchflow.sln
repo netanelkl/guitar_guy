@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarTeacherSketchflow", "GuitarTeacherSketchflow\GuitarTeacherSketchflow.csproj", "{27d390b3-6d87-42b9-9621-24fc9661db08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarTeacherSketchflowScreens", "GuitarTeacherSketchflow\GuitarTeacherSketchflowScreens\GuitarTeacherSketchflowScreens.csproj", "{0c43895e-5b9a-4c5f-94b4-8411f70854f5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C43895E-5B9A-4C5F-94B4-8411F70854F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C43895E-5B9A-4C5F-94B4-8411F70854F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C43895E-5B9A-4C5F-94B4-8411F70854F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C43895E-5B9A-4C5F-94B4-8411F70854F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D390B3-6D87-42B9-9621-24FC9661DB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D390B3-6D87-42B9-9621-24FC9661DB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D390B3-6D87-42B9-9621-24FC9661DB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D390B3-6D87-42B9-9621-24FC9661DB08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

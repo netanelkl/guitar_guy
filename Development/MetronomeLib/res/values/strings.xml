@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="slash">/</string>
+
+    <!-- Metronome activity -->
+    <string name="metronome_settings_tempo">Tempo:</string>
+    <string name="metronome_settings_time_signature">Time signature:</string>
+
+</resources>

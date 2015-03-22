@@ -1,0 +1,16 @@
+{
+	"Reports" : 
+	/* Will contain a list of ExerciseDoneReports*/
+	[ 
+		{
+			Stage : "Stage1",
+			Score : 72,
+			TotalTime : 42
+		},
+		{
+			Stage : "Stage2",
+			Score : 72,
+			TotalTime : 42
+		}
+	]
+}

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.1273141615/NDK_MODULE_PATH/delimiter=;
+environment/project/com.android.toolchain.gcc.1273141615/NDK_MODULE_PATH/operation=replace
+environment/project/com.android.toolchain.gcc.1273141615/NDK_MODULE_PATH/value=S\:\\Development\\TunerLib\\jni\\ndk-modules
+environment/project/com.android.toolchain.gcc.1273141615/append=true
+environment/project/com.android.toolchain.gcc.1273141615/appendContributed=true

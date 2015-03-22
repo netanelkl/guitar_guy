@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="the_error_has_been_sent_to_our_server_">The error has been sent to our server.</string>
+
+    <string name="the_error_has_been_sent_to_our_server">the error has been sent to our server</string>
+
+</resources>

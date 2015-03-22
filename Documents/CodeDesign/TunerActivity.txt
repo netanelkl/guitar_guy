@@ -1,0 +1,7 @@
+* Call ServiceProvider.getInstance().getNoteRecognizer().beginListening(...); but contain a member that will implement the listener.
+* make the following xml layout: RelativeLayout
+									HorizontalListView (look for this one through the exercisepicker). (you will populate this through code).
+									ImageView (Needle) layout_below the listview.
+									put another button for manual auto.
+* make a listviewitem xml like in the exercise picker. to contain like a bg image and a textview in the middle.
+* in manual mode, play the sound of the note (Lets figure this one out), in auto do the thing from above.

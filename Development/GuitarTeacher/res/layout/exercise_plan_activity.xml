@@ -1,0 +1,61 @@
+<!-- ?xml version="1.0" encoding="utf-8"? -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/header_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.mad.lib.activities.views.AutoResizeTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="20px"
+            android:contentDescription="@string/app_name"
+            android:textColor="#361b08"
+            android:textSize="50px"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:clickable="false"
+        android:contentDescription="@string/app_name"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <com.mad.lib.activities.views.AutoResizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:clickable="false"
+        android:contentDescription="@string/app_name"
+        android:maxHeight="150px"
+        android:text="@string/touch_anywhere_to_continue"
+        android:textColor="#361b08" />
+
+    <com.mad.guitarteacher.display.views.GameSurfaceView
+        android:id="@+id/popup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

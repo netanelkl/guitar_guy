@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="popup_foreground">#000000</color>
+    <color name="settings_foreground">#5f5656</color>
+
+</resources>

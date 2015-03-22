@@ -1,0 +1,13 @@
+
+	**** SUMMARY ****
+The app's Activities would be simple and generic, to support different
+Scenarios.
+
+	MainActivity
+		* Buttons: Start, Settings, Lessons, Tools.
+			- Each button will lead to a different activities.
+		* ExerciseActivity
+			- The activity will be initialized with the intent properties containing the ExerciseStage to run.
+			(StageId should be enough for the ExerciseManager to bring about the ExerciseStage).
+			(Intent's are a sort of an IPC protocol between activities, and may be used to initialize them.)
+			- 

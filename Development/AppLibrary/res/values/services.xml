@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="guitar_note_player" type="service"/>
+    <item name="chord_generator" type="service"/>
+    <item name="position_manager" type="service"/>
+    <item name="note_recognizer" type="service"/>
+    <item name="chord_recognizer" type="service"/>
+    <item name="settings_manager" type="service"/>
+    <item name="total_points_manager" type="service"/>
+    <item name="bitmaps_loader" type="service"/>
+    <item name="user_profiles_manager" type="service"/>
+    <item name="key_converter_factory" type="service"/>
+    <item name="native_interface_wrapper" type="service"/>
+    <item name="exercises_manager" type="service"/>
+
+</resources>

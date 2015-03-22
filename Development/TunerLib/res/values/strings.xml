@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help">Help</string>
+    <string name="help_page1_text">GuitarGuy Tuner will help you tune your guitar with ease. We have two work modes: Auto and Manual.</string>
+    <string name="tuner_page_auto">In auto mode, simply play the string you want to tune. GuitarGuy Tuner will automatically detect which string you\'re playing and will let you know if you need to loosen or tighten the string</string>
+    <string name="auto">Auto</string>
+    <string name="manual">Manual</string>
+    <string name="Tuner_page_manual">In manual mode, you must press on the button for the string you want to tune.\nThey are ordered from the lowest to the highest.\n</string>
+</resources>

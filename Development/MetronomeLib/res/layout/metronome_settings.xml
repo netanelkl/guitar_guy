@@ -1,0 +1,134 @@
+<!-- ?xml version="1.0" encoding="utf-8"? -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/metronome_settings_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <!-- Tempo selector -->
+
+    <ImageView
+        android:id="@+id/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:padding="80px" >
+
+        <RelativeLayout
+            android:id="@+id/top_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tempo_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/seeker"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/seeker"
+                android:gravity="center_vertical"
+                android:text="@string/metronome_settings_tempo"
+                android:textColor="@color/settings_foreground"
+                android:textSize="50px" />
+
+            <TextView
+                android:id="@+id/tempo_bpm_label"
+                android:layout_width="165px"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/seeker"
+                android:layout_alignTop="@+id/seeker"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:layout_toRightOf="@id/tempo_label"
+                android:gravity="right|center_vertical"
+                android:textColor="@color/settings_foreground"
+                android:textSize="30px" />
+
+            <SeekBar
+                android:id="@+id/seeker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/tempo_bpm_label"
+                android:max="310" />
+
+            <ImageView
+                android:id="@+id/lower_bpm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/seeker"
+                android:layout_margin="50px"
+                android:layout_toRightOf="@id/tempo_bpm_label"
+                android:onClick="lowerBPM" />
+
+            <ImageView
+                android:id="@+id/raise_bpm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/seeker"
+                android:layout_below="@id/seeker"
+                android:layout_margin="50px" />
+
+            <TextView
+                android:id="@+id/time_signature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/denominator"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/denominator"
+                android:layout_below="@id/raise_bpm_btn"
+                android:gravity="center_vertical"
+                android:text="@string/metronome_settings_time_signature"
+                android:textColor="@color/settings_foreground"
+                android:textSize="50px" />
+
+            <Spinner
+                android:id="@+id/nominator"
+                android:layout_width="475px"
+                android:layout_height="100px"
+                android:layout_alignLeft="@id/lower_bpm_btn"
+                android:layout_below="@id/raise_bpm_btn"
+                android:paddingBottom="0px"
+                android:paddingLeft="8px"
+                android:paddingTop="8px"
+                android:popupBackground="@color/popup_foreground" />
+
+            <TextView
+                android:id="@+id/slash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/nominator"
+                android:layout_alignTop="@id/nominator"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:layout_toLeftOf="@id/denominator"
+                android:layout_toRightOf="@id/nominator"
+                android:gravity="center"
+                android:text="@string/slash"
+                android:textColor="@color/settings_foreground"
+                android:textSize="45px"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/denominator"
+                android:layout_width="475px"
+                android:layout_height="100px"
+                android:layout_alignRight="@id/raise_bpm_btn"
+                android:layout_alignStart="@id/raise_bpm_btn"
+                android:layout_below="@id/raise_bpm_btn"
+                android:paddingBottom="0px"
+                android:paddingLeft="8px"
+                android:paddingTop="8px"
+                android:popupBackground="@color/popup_foreground" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

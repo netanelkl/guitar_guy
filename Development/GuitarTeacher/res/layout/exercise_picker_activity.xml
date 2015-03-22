@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.guitarteacher.activities.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/top_info_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/top_info_bar_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="-1px"
+            android:contentDescription="@string/topinfobar"
+            android:scaleType="fitXY" />
+
+        <com.mad.lib.activities.views.AutoResizeTextView
+            android:id="@+id/txt_bar_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+    </FrameLayout>
+
+    <com.mad.lib.display.utils.HorizontalListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+    </com.mad.lib.display.utils.HorizontalListView>
+
+</RelativeLayout>
